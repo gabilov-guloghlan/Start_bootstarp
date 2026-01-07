@@ -11,9 +11,8 @@ a:hover {
 }
 
 header {
-  background-image: url("../assets/navbar-logo.svg");
   background-color: #000000;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+header .imgbox {
+  header: 15px;
 }/*# sourceMappingURL=style.css.map */
