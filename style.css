@@ -3,16 +3,32 @@ body {
   font-weight: 500;
 }
 
-a {
-  color: orange;
-}
-a:hover {
-  color: black;
-}
-
 header {
-  background-color: #000000;
+  background-color: #212529;
+}
+header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
 }
 header .imgbox {
-  header: 15px;
+  width: 150px;
+}
+header nav a {
+  color: #ffffff;
+  margin-right: 30px;
+  font-size: 17px;
+  font-weight: 100;
+}
+header nav a:hover {
+  color: #ffea00;
+}
+
+#welcome {
+  min-height: 100vh;
+  background-image: url("../assets/header-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
