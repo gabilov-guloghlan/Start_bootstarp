@@ -26,9 +26,19 @@ header nav a:hover {
 }
 
 #welcome {
-  min-height: 100vh;
-  background-image: url("../assets/header-bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100vh;
+}
+#welcome .textbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+#welcome .textbox h1 {
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 300;
+}
+#welcome .textbox h5 {
+  font-size: 60px;
 }/*# sourceMappingURL=style.css.map */
