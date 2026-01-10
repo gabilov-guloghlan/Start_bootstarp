@@ -29,7 +29,7 @@ header .menu {
 header .imgbox {
   width: 150px;
 }
-header .textbox {
+header .btn {
   position: absolute;
   right: 120px;
   padding-left: 12px;
@@ -39,13 +39,11 @@ header .textbox {
   width: 100px;
   height: 45px;
   display: flex;
+  color: #ffffff;
 }
-header .textbox h1 {
+header .btn h1 {
   color: #ffffff;
   font-weight: 300;
-}
-header .textbox .btn {
-  color: #ffffff;
 }
 header nav a {
   color: #ffffff;
@@ -57,7 +55,7 @@ header nav a:hover {
   color: #ffea00;
 }
 @media screen and (min-width: 990px) {
-  header .textbox {
+  header .btn {
     display: none;
   }
 }
@@ -89,14 +87,12 @@ header nav a:hover {
 }
 #welcome .col-md-12 h1 {
   color: #ffffff;
-  font-size: 45px;
   font-style: italic;
   font-weight: 300;
   margin-bottom: 20px;
 }
 #welcome .col-md-12 h5 {
   color: #ffffff;
-  font-size: 85px;
   font-weight: 800;
 }
 #welcome .btn {
@@ -110,4 +106,46 @@ header nav a:hover {
   padding-top: 20px;
   font-style: normal;
   font-size: 20px;
+}
+@media (min-width: 576px) {
+  #welcome h1 {
+    font-size: 25px;
+  }
+  #welcome h5 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) {
+  #welcome h1 {
+    font-size: 40px;
+  }
+  #welcome h5 {
+    font-size: 45px;
+  }
+}
+@media (min-width: 992px) {
+  #welcome h1 {
+    font-size: 45px;
+  }
+  #welcome h5 {
+    font-size: 85px;
+  }
+}
+
+#services .textbox {
+  line-height: 1.8;
+  text-align: center;
+  font-style: normal;
+}
+#services .textbox h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+#services .textbox h5 {
+  font-size: 18px;
+  font-style: italic;
+  color: #968d8d;
+}
+#services .textbox .btn .service-icon {
+  font-size: 35px;
 }/*# sourceMappingURL=style.css.map */
