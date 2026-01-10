@@ -29,6 +29,24 @@ header .menu {
 header .imgbox {
   width: 150px;
 }
+header .textbox {
+  position: absolute;
+  right: 120px;
+  padding-left: 12px;
+  align-items: center;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  width: 100px;
+  height: 45px;
+  display: flex;
+}
+header .textbox h1 {
+  color: #ffffff;
+  font-weight: 300;
+}
+header .textbox .btn {
+  color: #ffffff;
+}
 header nav a {
   color: #ffffff;
   margin-right: 30px;
@@ -37,6 +55,11 @@ header nav a {
 }
 header nav a:hover {
   color: #ffea00;
+}
+@media screen and (min-width: 990px) {
+  header .textbox {
+    display: none;
+  }
 }
 @media screen and (max-width: 990px) {
   header nav {
