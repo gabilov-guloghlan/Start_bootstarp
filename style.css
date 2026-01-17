@@ -16,7 +16,6 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  left: 0;
   background-color: #212529;
   z-index: 1000;
 }
@@ -146,6 +145,36 @@ header nav a:hover {
   font-style: italic;
   color: #968d8d;
 }
-#services .textbox .btn .service-icon {
-  font-size: 35px;
+#services .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#services .box .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #f9e801;
+  border: 1px solid #f9e801;
+  width: 130px;
+  height: 130px;
+}
+#services .box .icon i {
+  font-size: 75px;
+  color: #ffffff;
+}
+#services .box h2, #services .box p {
+  text-align: center;
+}
+#services .box h2 {
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#services .box p {
+  font-size: 20px;
+  line-height: 1.4;
 }/*# sourceMappingURL=style.css.map */
