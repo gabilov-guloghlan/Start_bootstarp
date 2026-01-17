@@ -178,4 +178,35 @@ header nav a:hover {
 #services .box p {
   font-size: 20px;
   line-height: 1.4;
+}
+
+#portfolio .textbox {
+  line-height: 1.8;
+  text-align: center;
+  font-style: normal;
+}
+#portfolio .textbox h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+#portfolio .textbox h5 {
+  font-size: 18px;
+  font-style: italic;
+  color: #968d8d;
+  margin-bottom: 70px;
+}
+#portfolio .textbox1 {
+  line-height: 1.8;
+  text-align: center;
+  font-style: normal;
+}
+#portfolio .textbox1 h3 {
+  font-size: 30px;
+  font-weight: 800;
+}
+#portfolio .textbox1 h4 {
+  font-size: 18px;
+  font-style: italic;
+  color: #968d8d;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
