@@ -9,7 +9,7 @@ body .imgbox img {
   width: 100%;
 }
 body section {
-  padding: 80px 0;
+  padding: 97px 0;
 }
 
 header {
@@ -144,6 +144,7 @@ header nav a:hover {
   font-size: 18px;
   font-style: italic;
   color: #968d8d;
+  margin-bottom: 70px;
 }
 #services .box {
   display: flex;
