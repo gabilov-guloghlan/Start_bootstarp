@@ -209,4 +209,43 @@ header nav a:hover {
   font-style: italic;
   color: #968d8d;
   margin-bottom: 50px;
+}
+#portfolio .imgbox {
+  position: relative;
+}
+#portfolio .imgbox .hover {
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 200, 0, 0.9);
+  opacity: 0;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#portfolio .imgbox .hover i {
+  color: #fff;
+}
+#portfolio .imgbox:hover .hover {
+  opacity: 1;
+}
+
+#about .textbox {
+  line-height: 1.8;
+  text-align: center;
+  font-style: normal;
+}
+#about .textbox h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+#about .textbox h5 {
+  font-size: 18px;
+  font-style: italic;
+  color: #968d8d;
+  margin-bottom: 70px;
 }/*# sourceMappingURL=style.css.map */
