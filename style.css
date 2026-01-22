@@ -249,6 +249,22 @@ header nav a:hover {
   color: #968d8d;
   margin-bottom: 70px;
 }
+#about .textbox1 {
+  width: 400px;
+  line-height: 1.5;
+  margin-right: 46px;
+}
 #about .textbox1 h2 {
+  font-weight: 700;
   font-size: 30px;
+}
+#about .textbox1 h4 {
+  color: rgba(63, 63, 63, 0.3411764706);
+  font-size: 19px;
+}
+#about .imgbox {
+  border: 6px solid rgba(63, 63, 63, 0.3411764706);
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
 }/*# sourceMappingURL=style.css.map */
