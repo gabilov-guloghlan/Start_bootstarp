@@ -234,6 +234,9 @@ header nav a:hover {
   opacity: 1;
 }
 
+#about .padding {
+  padding-bottom: 150px;
+}
 #about .textbox {
   line-height: 1.8;
   text-align: center;
@@ -250,17 +253,49 @@ header nav a:hover {
   margin-bottom: 70px;
 }
 #about .textbox1 {
-  width: 400px;
   line-height: 1.5;
   margin-right: 46px;
 }
 #about .textbox1 h2 {
   font-weight: 700;
   font-size: 30px;
+  width: 400px;
 }
-#about .textbox1 h4 {
+#about .textbox1 p {
   color: rgba(63, 63, 63, 0.3411764706);
   font-size: 19px;
+  width: 400px;
+}
+#about .textbox2 {
+  margin-left: 46px;
+  line-height: 1.5;
+}
+#about .textbox2 h2 {
+  font-weight: 700;
+  font-size: 30px;
+  width: 400px;
+}
+#about .textbox2 p {
+  color: rgba(63, 63, 63, 0.3411764706);
+  font-size: 19px;
+  width: 400px;
+}
+#about .textyellow {
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid rgba(63, 63, 63, 0.3411764706);
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+  background-color: #fcc500;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 700;
+}
+#about .textyellow h3 {
+  width: 67px;
 }
 #about .imgbox {
   border: 6px solid rgba(63, 63, 63, 0.3411764706);
