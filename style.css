@@ -13,11 +13,11 @@ body section {
 }
 
 header {
+  z-index: 1;
   width: 100%;
   position: fixed;
   top: 0;
   background-color: #212529;
-  z-index: 1000;
 }
 header .menu {
   display: flex;
@@ -92,12 +92,13 @@ header nav a:hover {
 }
 #welcome .col-md-12 h5 {
   color: #ffffff;
+  font-style: normal;
   font-weight: 800;
 }
 #welcome .btn {
   color: #ffffff;
   margin-top: 59px;
-  border: 1px solid #ffffff;
+  border: 1px solid #ffc800;
   width: 240px;
   height: 75px;
   background-color: #ffc800;
@@ -143,7 +144,7 @@ header nav a:hover {
 #services .textbox h5 {
   font-size: 18px;
   font-style: italic;
-  color: #968d8d;
+  color: #6C757D;
   margin-bottom: 70px;
 }
 #services .box {
@@ -157,8 +158,8 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background-color: #f9e801;
-  border: 1px solid #f9e801;
+  background-color: #ffc800;
+  border: 1px solid #ffc800;
   width: 130px;
   height: 130px;
 }
@@ -174,12 +175,20 @@ header nav a:hover {
   font-weight: 800;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #000000;
 }
 #services .box p {
   font-size: 20px;
   line-height: 1.4;
+  color: #6C757D;
 }
 
+#portfolio {
+  background-color: #F8F9FA;
+}
+#portfolio .col-md-12 {
+  border: 1px solid #ffffff;
+}
 #portfolio .textbox {
   line-height: 1.8;
   text-align: center;
@@ -192,10 +201,11 @@ header nav a:hover {
 #portfolio .textbox h5 {
   font-size: 18px;
   font-style: italic;
-  color: #968d8d;
+  color: #9BA3B8;
   margin-bottom: 70px;
 }
 #portfolio .textbox1 {
+  background-color: #ffffff;
   line-height: 1.8;
   text-align: center;
   font-style: normal;
@@ -207,7 +217,7 @@ header nav a:hover {
 #portfolio .textbox1 h4 {
   font-size: 18px;
   font-style: italic;
-  color: #968d8d;
+  color: #9BA3B8;
   margin-bottom: 50px;
 }
 #portfolio .imgbox {
@@ -217,10 +227,9 @@ header nav a:hover {
   font-size: 50px;
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  background-color: #f4e407;
+  background-color: #F8CB09;
   opacity: 0;
   transition: 0.3s;
   display: flex;
