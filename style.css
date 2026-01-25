@@ -200,7 +200,6 @@ header nav a:hover {
 #portfolio .textbox {
   line-height: 1.8;
   text-align: center;
-  font-style: normal;
 }
 #portfolio .textbox h1 {
   font-size: 45px;
@@ -244,7 +243,7 @@ header nav a:hover {
   justify-content: center;
 }
 #portfolio .imgbox .hover i {
-  color: #fff;
+  color: #ffffff;
 }
 #portfolio .imgbox:hover .hover {
   opacity: 1;
@@ -335,4 +334,51 @@ header nav a:hover {
 }
 #about .textyellow h3 {
   width: 67px;
+}
+
+#team .textbox {
+  flex-direction: column;
+  line-height: 1.8;
+  text-align: center;
+}
+#team .textbox h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+#team .textbox h5 {
+  font-size: 18px;
+  font-style: italic;
+  color: #9BA3B8;
+  margin-bottom: 70px;
+}
+#team .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#team .box .imgbox {
+  border: 6px solid rgba(63, 63, 63, 0.3411764706);
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+#team .box .textbox h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+#team .box .textbox h4 {
+  font-size: 18px;
+  color: #9BA3B8;
+  margin-bottom: 10px;
+}
+#team .box ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team .box ul li {
+  border: 1px solid #000000;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
 }/*# sourceMappingURL=style.css.map */
