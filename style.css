@@ -336,6 +336,9 @@ header nav a:hover {
   width: 67px;
 }
 
+#team {
+  background-color: #F8F9FA;
+}
 #team .textbox {
   flex-direction: column;
   line-height: 1.8;
@@ -368,14 +371,16 @@ header nav a:hover {
 }
 #team .box .textbox h4 {
   font-size: 18px;
-  color: #9BA3B8;
+  color: #6C757D;
   margin-bottom: 10px;
 }
 #team .box ul {
   display: flex;
 }
 #team .box ul li {
-  margin-left: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0 13px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -383,4 +388,20 @@ header nav a:hover {
   border-radius: 100%;
   width: 40px;
   height: 40px;
+}
+#team .textbox1 {
+  margin-top: 40px;
+  text-align: center;
+}
+#team .textbox1 p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #6C757D;
+  line-height: 1.7;
+}
+@media screen and (max-width: 768px) {
+  #team .box {
+    margin-bottom: 45px;
+  }
 }/*# sourceMappingURL=style.css.map */
