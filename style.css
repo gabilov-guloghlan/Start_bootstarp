@@ -373,10 +373,12 @@ header nav a:hover {
 }
 #team .box ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 #team .box ul li {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #000000;
   border-radius: 100%;
   width: 40px;
