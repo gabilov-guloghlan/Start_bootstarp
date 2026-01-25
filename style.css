@@ -395,7 +395,6 @@ header nav a:hover {
 }
 #team .textbox1 p {
   max-width: 800px;
-  margin: 0 auto;
   font-size: 18px;
   color: #6C757D;
   line-height: 1.7;
@@ -404,4 +403,60 @@ header nav a:hover {
   #team .box {
     margin-bottom: 45px;
   }
+}
+
+#logos .microsoft {
+  width: 180px;
+  height: 60px;
+}
+#logos .google {
+  width: 160px;
+  height: 60px;
+}
+#logos .facebook {
+  width: 180px;
+  height: 50px;
+}
+#logos .ibm {
+  width: 150px;
+  height: 60px;
+}
+
+#contact {
+  background-image: url("../assets/img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#contact .textbox {
+  line-height: 1.8;
+  text-align: center;
+}
+#contact .textbox h1 {
+  font-size: 45px;
+  font-weight: 800;
+  color: #ffffff;
+}
+#contact .textbox h5 {
+  font-size: 18px;
+  font-style: italic;
+  color: #968d8d;
+  margin-bottom: 70px;
+}
+#contact .box .minibox {
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 650px;
+  height: 70px;
+}
+#contact .bigbox {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 650px;
+  height: 270px;
 }/*# sourceMappingURL=style.css.map */
