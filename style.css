@@ -447,16 +447,57 @@ header nav a:hover {
   color: #968d8d;
   margin-bottom: 70px;
 }
+#contact .box input {
+  margin-top: 10px;
+}
 #contact .box .minibox {
   margin-bottom: 30px;
   border: 1px solid black;
   border-radius: 10px;
-  width: 650px;
+  width: 630px;
   height: 70px;
 }
 #contact .bigbox {
   border: 1px solid black;
   border-radius: 10px;
-  width: 650px;
+  width: 630px;
   height: 270px;
+}
+#contact .bigbox input {
+  margin-top: 10px;
+}
+#contact .btn {
+  color: #ffffff;
+  margin-top: 25px;
+  border: 1px solid #ffc800;
+  width: 240px;
+  height: 75px;
+  background-color: rgba(255, 193, 7, 0.82);
+  border-radius: 10px;
+  padding-top: 20px;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#end ul {
+  display: flex;
+}
+#end ul li {
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+#end h3, #end h4 {
+  cursor: pointer;
+}
+#end h2 {
+  cursor: alias;
 }/*# sourceMappingURL=style.css.map */
