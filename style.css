@@ -112,6 +112,7 @@ header nav a:hover {
   padding-top: 20px;
   font-style: normal;
   font-size: 20px;
+  font-weight: 800;
 }
 @media (min-width: 576px) {
   #welcome h1 {
@@ -152,7 +153,7 @@ header nav a:hover {
 #services .textbox h5 {
   font-size: 18px;
   font-style: italic;
-  color: #6C757D;
+  color: #6c757d;
   margin-bottom: 70px;
 }
 #services .box {
@@ -194,6 +195,9 @@ header nav a:hover {
 #portfolio {
   background-color: #F8F9FA;
 }
+#portfolio .hgt {
+  margin-bottom: 27px;
+}
 #portfolio .col-md-12 {
   border: 1px solid #ffffff;
 }
@@ -208,23 +212,25 @@ header nav a:hover {
 #portfolio .textbox h5 {
   font-size: 18px;
   font-style: italic;
-  color: #9BA3B8;
-  margin-bottom: 70px;
+  color: #6c757d;
+  margin-bottom: 60px;
+  font-weight: 400;
 }
 #portfolio .textbox1 {
+  height: 80px;
   background-color: #ffffff;
   line-height: 1.8;
   text-align: center;
   font-style: normal;
 }
 #portfolio .textbox1 h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 800;
 }
 #portfolio .textbox1 h4 {
   font-size: 18px;
   font-style: italic;
-  color: #9BA3B8;
+  color: #6c757d;
   margin-bottom: 50px;
 }
 #portfolio .imgbox {
@@ -312,7 +318,7 @@ header nav a:hover {
 }
 #about .box2 .imgbox1 {
   margin-right: 59px;
-  border: 6px solid rgba(63, 63, 63, 0.3411764706);
+  border: 6px solid #e9ecef;
   border-radius: 100%;
   width: 160px;
   height: 160px;
@@ -323,7 +329,7 @@ header nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 6px solid rgba(63, 63, 63, 0.3411764706);
+  border: 6px solid #e9ecef;
   border-radius: 100%;
   width: 160px;
   height: 160px;
@@ -351,7 +357,7 @@ header nav a:hover {
 #team .textbox h5 {
   font-size: 18px;
   font-style: italic;
-  color: #9BA3B8;
+  color: #6c757d;
   margin-bottom: 70px;
 }
 #team .box {
@@ -392,9 +398,11 @@ header nav a:hover {
 #team .textbox1 {
   margin-top: 40px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 #team .textbox1 p {
-  max-width: 800px;
+  width: 800px;
   font-size: 18px;
   color: #6C757D;
   line-height: 1.7;
@@ -423,14 +431,11 @@ header nav a:hover {
 }
 
 #contact {
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  justify-content: center;
-  height: 100vh;
-  display: flex;
-  align-items: center;
+  min-height: 100vh;
 }
 #contact .textbox {
   line-height: 1.8;
@@ -444,11 +449,13 @@ header nav a:hover {
 #contact .textbox h5 {
   font-size: 18px;
   font-style: italic;
-  color: #968d8d;
+  color: #6c757d;
   margin-bottom: 70px;
 }
 #contact .box input {
-  margin-top: 10px;
+  font-weight: 500;
+  margin: 15px 0 0 10px;
+  font-size: 20px;
 }
 #contact .box .minibox {
   margin-bottom: 30px;
@@ -479,11 +486,13 @@ header nav a:hover {
   font-size: 20px;
 }
 
-#end ul {
+footer {
+  height: 60px;
+}
+footer ul {
   display: flex;
 }
-#end ul li {
-  cursor: pointer;
+footer ul li {
   background-color: #000000;
   color: #ffffff;
   margin: 0 13px;
@@ -495,9 +504,15 @@ header nav a:hover {
   width: 40px;
   height: 40px;
 }
-#end h3, #end h4 {
+footer ul li i {
   cursor: pointer;
 }
-#end h2 {
-  cursor: alias;
+footer .box2 h3, footer .box2 h4 {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 17px;
+}
+footer .box1 h2 {
+  font-size: 17px;
+  cursor: auto;
 }/*# sourceMappingURL=style.css.map */
