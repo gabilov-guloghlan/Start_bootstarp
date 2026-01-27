@@ -284,17 +284,18 @@ header nav a:hover {
   line-height: 1.3;
 }
 #about .box .textbox1 h2 {
+  margin: 7px 0;
   font-weight: 700;
   font-size: 30px;
 }
 #about .box .textbox1 p {
-  color: rgba(63, 63, 63, 0.3411764706);
+  color: #6c757d;
   font-size: 19px;
   width: 400px;
 }
 #about .box .imgbox {
   margin-left: 70px;
-  border: 6px solid rgba(63, 63, 63, 0.3411764706);
+  border: 6px solid #e9ecef;
   border-radius: 100%;
   width: 160px;
   height: 160px;
@@ -308,11 +309,12 @@ header nav a:hover {
   line-height: 1.3;
 }
 #about .box2 .textbox2 h2 {
+  margin: 7px 0;
   font-weight: 700;
   font-size: 30px;
 }
 #about .box2 .textbox2 p {
-  color: rgba(63, 63, 63, 0.3411764706);
+  color: #6c757d;
   font-size: 19px;
   width: 400px;
 }
@@ -324,7 +326,7 @@ header nav a:hover {
   height: 160px;
 }
 #about .textyellow {
-  margin-left: 29px;
+  text-align: center;
   line-height: 1.3;
   display: flex;
   justify-content: center;
@@ -368,8 +370,8 @@ header nav a:hover {
 #team .box .imgbox {
   border: 6px solid rgba(63, 63, 63, 0.3411764706);
   border-radius: 100%;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
 }
 #team .box .textbox h2 {
   font-size: 30px;
