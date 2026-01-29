@@ -255,13 +255,6 @@ header nav a:hover {
   opacity: 1;
 }
 
-#about .col {
-  margin-bottom: 130px;
-}
-#about .margin {
-  margin-top: 100px;
-  margin-left: 100px;
-}
 #about .textbox {
   line-height: 1.8;
   text-align: center;
@@ -276,91 +269,51 @@ header nav a:hover {
   color: #968d8d;
   margin-bottom: 70px;
 }
-#about .box {
-  display: flex;
-}
-#about .box .textbox1 {
+#about .textbox1 {
+  padding-left: 150px;
   text-align: end;
-  margin-left: 100px;
-  line-height: 1.3;
 }
-#about .box .textbox1 h2 {
-  margin: 7px 0;
-  font-weight: 700;
-  font-size: 30px;
+#about .textbox1 h2 {
+  font-size: 29px;
+  font-weight: 800;
+  margin: 13px;
+  margin-right: 20px;
 }
-#about .box .textbox1 p {
-  color: #6c757d;
-  font-size: 19px;
-  width: 400px;
+#about .textbox1 p {
+  line-height: 1.7;
+  color: #968d8d;
+  font-size: 18px;
+  margin-right: 25px;
 }
-#about .box .imgbox {
-  margin-left: 70px;
+#about .imgbox {
   border: 6px solid #e9ecef;
   border-radius: 100%;
   width: 160px;
   height: 160px;
 }
-#about .box2 {
-  display: flex;
-  justify-content: end;
-}
-#about .box2 .textbox2 {
+#about .textbox2 {
   text-align: start;
-  margin-right: 100px;
-  line-height: 1.3;
 }
-#about .box2 .textbox2 h2 {
-  margin: 7px 0;
-  font-weight: 700;
-  font-size: 30px;
+#about .textbox2 h2 {
+  margin: 13px;
+  font-size: 29px;
+  font-weight: 800;
+  margin-left: 20px;
 }
-#about .box2 .textbox2 p {
-  color: #6c757d;
-  font-size: 19px;
-  width: 400px;
+#about .textbox2 p {
+  line-height: 1.7;
+  color: #968d8d;
+  font-size: 18px;
+  margin-left: 25px;
 }
-#about .box2 .imgbox1 {
-  margin-right: 59px;
-  border: 6px solid #e9ecef;
-  border-radius: 100%;
-  width: 160px;
-  height: 160px;
+#about .wid {
+  width: 575px;
 }
-#about .textyellow {
-  text-align: center;
-  line-height: 1.3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 6px solid #e9ecef;
-  border-radius: 100%;
-  width: 160px;
-  height: 160px;
-  background-color: #fcc500;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 700;
+#about .padding {
+  padding-right: 100px;
 }
-#about .textyellow h3 {
-  width: 67px;
-}
-@media screen and (max-width: 800px) {
-  #about .box {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-  }
-  #about .box .textbox1 {
-    text-align: start;
-    line-height: 1.3;
-  }
-  #about .box .imgbox1 {
-    border: 6px solid #e9ecef;
-    border-radius: 100%;
-    width: 130px;
-    height: 130px;
-  }
+#about .margin {
+  margin-bottom: 130px;
 }
 
 #team {
