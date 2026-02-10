@@ -255,6 +255,12 @@ header nav a:hover {
   opacity: 1;
 }
 
+#about .margin {
+  margin-right: 65px;
+}
+#about .row2 {
+  margin: 130px 0;
+}
 #about .textbox {
   line-height: 1.8;
   text-align: center;
@@ -266,54 +272,49 @@ header nav a:hover {
 #about .textbox h5 {
   font-size: 18px;
   font-style: italic;
-  color: #968d8d;
-  margin-bottom: 70px;
+  color: #6c757d;
+  margin-bottom: 60px;
+  font-weight: 400;
 }
 #about .textbox1 {
-  padding-left: 150px;
+  width: 500px;
   text-align: end;
+  line-height: 1.5;
 }
 #about .textbox1 h2 {
-  font-size: 29px;
   font-weight: 800;
-  margin: 13px;
-  margin-right: 20px;
+  font-size: 25px;
 }
 #about .textbox1 p {
-  line-height: 1.7;
-  color: #968d8d;
-  font-size: 18px;
-  margin-right: 25px;
+  color: #6c757d;
+  line-height: 1.75;
+  font-size: 20px;
 }
 #about .imgbox {
+  margin-left: 60px;
+  border-radius: 100%;
+  border: 5px solid #c9ced2;
+  width: 170px;
+  height: 170px;
+  align-self: center;
+}
+#about .textyellow {
+  text-align: center;
+  line-height: 1.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 6px solid #e9ecef;
   border-radius: 100%;
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 170px;
+  background-color: #fcc500;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
 }
-#about .textbox2 {
-  text-align: start;
-}
-#about .textbox2 h2 {
-  margin: 13px;
-  font-size: 29px;
-  font-weight: 800;
-  margin-left: 20px;
-}
-#about .textbox2 p {
-  line-height: 1.7;
-  color: #968d8d;
-  font-size: 18px;
-  margin-left: 25px;
-}
-#about .wid {
-  width: 575px;
-}
-#about .padding {
-  padding-right: 100px;
-}
-#about .margin {
-  margin-bottom: 130px;
+#about .textyellow h3 {
+  width: 67px;
 }
 
 #team {
