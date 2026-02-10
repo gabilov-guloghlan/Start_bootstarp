@@ -30,8 +30,8 @@
         margin-left: 60px
         border-radius: 100%
         border: 5px solid #c9ced2
-        width: 170px
-        height: 170px
+        width: 100px
+        height: 100px
         align-self: center
     .textyellow
         text-align: center
@@ -49,3 +49,37 @@
         font-weight: 700
         h3
             width: 67px
+    .row3
+        display: flex
+        justify-content: center
+        
+    @media (max-width: 990px)
+        .left
+            display: flex
+            justify-content: start
+            .textyellow
+                width: 100px
+                height: 100px
+                margin-left: 58px
+                font-size: 15px
+    @media (min-width: 989px)
+        .imgbox
+            width: 170px
+            height: 170px
+            overflow: hidden
+    @media (max-width: 989px)
+        .rev
+            display: flex
+            flex-flow: row-reverse
+        .txt
+            text-align: start
+            margin-left: 70px
+    @media (max-width: 575px)
+        .imgbox
+            width: 25px
+            height: 25px
+        .textbox1
+            height: 50px
+            line-height: 0.9
+            p
+                line-height: 0.5

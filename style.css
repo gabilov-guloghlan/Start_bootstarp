@@ -294,8 +294,8 @@ header nav a:hover {
   margin-left: 60px;
   border-radius: 100%;
   border: 5px solid #c9ced2;
-  width: 170px;
-  height: 170px;
+  width: 100px;
+  height: 100px;
   align-self: center;
 }
 #about .textyellow {
@@ -315,6 +315,52 @@ header nav a:hover {
 }
 #about .textyellow h3 {
   width: 67px;
+}
+#about .row3 {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 990px) {
+  #about .left {
+    display: flex;
+    justify-content: start;
+  }
+  #about .left .textyellow {
+    width: 100px;
+    height: 100px;
+    margin-left: 58px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 989px) {
+  #about .imgbox {
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 989px) {
+  #about .rev {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+  #about .txt {
+    text-align: start;
+    margin-left: 70px;
+  }
+}
+@media (max-width: 575px) {
+  #about .imgbox {
+    width: 25px;
+    height: 25px;
+  }
+  #about .textbox1 {
+    height: 50px;
+    line-height: 0.9;
+  }
+  #about .textbox1 p {
+    line-height: 0.5;
+  }
 }
 
 #team {
