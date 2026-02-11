@@ -321,15 +321,17 @@ header nav a:hover {
   justify-content: center;
 }
 @media (max-width: 990px) {
-  #about .left {
-    display: flex;
-    justify-content: start;
-  }
-  #about .left .textyellow {
+  #about .textyellow {
     width: 100px;
     height: 100px;
     margin-left: 58px;
     font-size: 15px;
+  }
+}
+@media (max-width: 990px) {
+  #about .left {
+    display: flex;
+    justify-content: start;
   }
 }
 @media (min-width: 989px) {
@@ -452,7 +454,7 @@ header nav a:hover {
 }
 
 #contact {
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("assets/img/map-image.png");
 }
 #contact .textbox {
   line-height: 1.8;
