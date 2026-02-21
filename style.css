@@ -64,7 +64,7 @@ header nav a:hover {
   }
   header .btn {
     position: absolute;
-    right: 0;
+    right: 20px;
   }
 }
 
@@ -112,7 +112,7 @@ header nav a:hover {
   font-size: 20px;
   font-weight: 800;
 }
-@media (min-width: 576px) {
+@media (min-width: 476px) {
   #welcome h1 {
     font-size: 25px;
   }
@@ -264,57 +264,94 @@ header nav a:hover {
   margin: 20px 0 60px;
   font-weight: 400;
 }
-#about .textbox {
-  margin-left: 50px;
-  width: 450px;
+#about .box .textbox {
   line-height: 1.5;
-  text-align: end;
 }
-#about .textbox h3 {
-  font-size: 25px;
+#about .box .textbox h3 {
   font-weight: 800;
+  font-size: 25px;
 }
-#about .textbox p {
-  font-size: 18px;
+#about .box .textbox p {
   color: #6c757d;
   font-weight: 400;
+  font-size: 18px;
 }
-#about .imgbox {
-  margin-left: 60px;
+#about .box .imgbox {
   border-radius: 100%;
   border: 5px #e9ecef solid;
 }
-@media screen and (max-width: 992px) {
-  #about .textbox {
-    text-align: start;
-  }
+@media (max-width: 767px) {
   #about .reverse {
     display: flex;
     flex-direction: row-reverse;
   }
+  #about .reverse .textbox {
+    padding-left: 60px;
+    text-align: start;
+  }
+  #about .reverse .imgbox {
+    margin-bottom: 100px;
+  }
 }
-@media (min-width: 444px) {
-  #about .imgbox {
-    width: 25px;
-    height: 25px;
+@media (min-width: 375px) {
+  #about .box .imgbox {
+    margin-bottom: 170px;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
   }
 }
 @media (min-width: 576px) {
-  #about .imgbox {
-    width: 50px;
-    height: 50px;
+  #about .box .textbox {
+    margin: 0;
+    padding: 0;
   }
 }
 @media (min-width: 768px) {
-  #about .imgbox {
-    width: 100px;
-    height: 100px;
+  #about .box .textbox {
+    width: 250px;
+    text-align: end;
+  }
+  #about .box .imgbox {
+    margin-left: 50px;
+    margin-bottom: 150px;
+    width: 95px;
+    height: 95px;
   }
 }
 @media (min-width: 992px) {
-  #about .imgbox {
-    width: 170px;
-    height: 170px;
+  #about .box .imgbox {
+    width: 135px;
+    height: 135px;
+    margin-left: 40px;
+  }
+  #about .box .textbox {
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    text-align: end;
+  }
+}
+@media (min-width: 1200px) {
+  #about .box .textbox {
+    width: 300px;
+    margin-left: 150px;
+    text-align: end;
+  }
+  #about .box .imgbox {
+    margin-left: 30px;
+    margin-bottom: 120px;
+  }
+}
+@media (min-width: 1400px) {
+  #about .box .imgbox {
+    width: 160px;
+    height: 160px;
+  }
+  #about .box .textbox {
+    margin-bottom: 100px;
+    width: 390px;
+    text-align: end;
   }
 }
 
