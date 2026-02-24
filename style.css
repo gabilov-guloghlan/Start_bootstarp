@@ -291,7 +291,7 @@ header nav a:hover {
   background-color: #fcc500;
   color: #ffffff;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
 }
 @media (max-width: 767px) {
   #about .box {
@@ -306,10 +306,16 @@ header nav a:hover {
     display: flex;
     flex-flow: row;
   }
-  #about .textyellow {
+  #about .yellow {
+    position: realtive;
+  }
+  #about .yellow .textyellow {
+    position: absolute;
+    left: 115px;
     width: 80px;
     height: 80px;
     font-size: 10px;
+    padding: 15px;
   }
 }
 @media (min-width: 576px) {
@@ -346,6 +352,8 @@ header nav a:hover {
     width: 100px;
     height: 100px;
     font-size: 13px;
+    line-height: 1.2;
+    padding: 25px;
   }
 }
 @media (min-width: 992px) {
@@ -373,6 +381,8 @@ header nav a:hover {
     width: 150px;
     height: 150px;
     font-size: 16px;
+    padding: 40px;
+    line-height: 1.5;
   }
 }
 @media (min-width: 1200px) {
@@ -389,6 +399,9 @@ header nav a:hover {
     margin-left: 10px;
     width: 170px;
     height: 170px;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 1.5;
   }
   #about .remote .textbox {
     position: absolute;
@@ -406,8 +419,11 @@ header nav a:hover {
     text-align: end;
   }
   #about .remote .textbox {
-    position: absolute;
-    right: 250px;
+    right: 260px;
+  }
+  #about .textyellow {
+    padding: 50px;
+    font-size: 20px;
   }
 }
 
