@@ -265,6 +265,7 @@ header nav a:hover {
   font-weight: 400;
 }
 #about .box .textbox {
+  width: 400px;
   line-height: 1.5;
 }
 #about .box .textbox h3 {
@@ -277,6 +278,8 @@ header nav a:hover {
   font-size: 18px;
 }
 #about .box .imgbox {
+  width: 160px;
+  height: 160px;
   border-radius: 100%;
   border: 5px #e9ecef solid;
 }
@@ -292,148 +295,8 @@ header nav a:hover {
   color: #ffffff;
   font-size: 20px;
   font-weight: 800;
-}
-@media (max-width: 767px) {
-  #about .box {
-    margin-bottom: 50px;
-    display: flex;
-    flex-flow: row-reverse;
-  }
-  #about .box .imgbox {
-    margin-bottom: 100px;
-  }
-  #about .remote {
-    display: flex;
-    flex-flow: row;
-  }
-  #about .yellow .textyellow {
-    width: 75px;
-    height: 75px;
-    font-size: 10px;
-    padding: 15px;
-    margin-right: 435px;
-  }
-}
-@media (min-width: 576px) {
-  #about .box .imgbox {
-    margin-right: 19px;
-    margin-bottom: 100px;
-  }
-  #about .box .textbox {
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-}
-@media (min-width: 768px) {
-  #about .box .textbox {
-    width: 250px;
-    text-align: end;
-  }
-  #about .box .imgbox {
-    margin-left: 50px;
-    margin-bottom: 150px;
-    width: 95px;
-    height: 95px;
-  }
-  #about .remote {
-    position: realtive;
-  }
-  #about .remote .textbox {
-    position: static;
-  }
-  #about .remote .imgbox {
-    margin-left: 300px;
-  }
-  #about .textyellow {
-    width: 95px;
-    height: 95px;
-    font-size: 13px;
-    line-height: 1.2;
-    padding: 10px 20px;
-  }
-  #about .yellow {
-    margin-left: 10px;
-  }
-}
-@media (min-width: 992px) {
-  #about .box .imgbox {
-    width: 135px;
-    height: 135px;
-    margin-left: 40px;
-  }
-  #about .box .textbox {
-    width: 300px;
-    margin-left: 50px;
-    margin-bottom: 55px;
-    text-align: end;
-  }
-  #about .remote {
-    psition: realtive;
-  }
-  #about .remote .textbox {
-    margin-right: 40px;
-    position: static;
-  }
-  #about .remote .imgbox {
-    margin-left: 340px;
-  }
-  #about .textyellow {
-    width: 135px;
-    height: 135px;
-    font-size: 16px;
-    padding: 10px 35px;
-    line-height: 1.5;
-  }
-  #about .yellow {
-    margin-right: 10px;
-  }
-}
-@media (min-width: 1200px) {
-  #about .box .textbox {
-    width: 300px;
-    margin-left: 150px;
-    text-align: end;
-  }
-  #about .box .imgbox {
-    margin-left: 30px;
-    margin-bottom: 137px;
-  }
-  #about .textyellow {
-    margin-left: 10px;
-    width: 145px;
-    height: 145px;
-    padding: 10px 30px;
-    font-size: 20px;
-    line-height: 1.3;
-  }
-  #about .remote .textbox {
-    position: absolute;
-    right: 220px;
-  }
-}
-@media (min-width: 1400px) {
-  #about .box .imgbox {
-    width: 160px;
-    height: 160px;
-  }
-  #about .box .textbox {
-    margin-bottom: 100px;
-    width: 390px;
-    text-align: end;
-  }
-  #about .remote .textbox {
-    right: 245px;
-  }
-  #about .textyellow {
-    height: 160px;
-    width: 160px;
-    padding: 10px 40px;
-    font-size: 20px;
-    line-height: 1.3;
-  }
-  #about .yellow {
-    margin-right: 10px;
-  }
+  width: 160px;
+  height: 160px;
 }
 
 #team {
