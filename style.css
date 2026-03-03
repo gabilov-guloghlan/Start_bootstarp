@@ -278,8 +278,6 @@ header nav a:hover {
   font-size: 18px;
 }
 #about .box .imgbox {
-  width: 160px;
-  height: 160px;
   border-radius: 100%;
   border: 5px #e9ecef solid;
 }
@@ -299,6 +297,50 @@ header nav a:hover {
   height: 160px;
 }
 
+@media (min-width: 576px) {
+  .imgbox {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .dtext1, .dtext3 {
+    text-align: end;
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+  }
+  .dimg1, .dimg3 {
+    margin-right: 460px;
+  }
+  .dtext1, .dtext3 {
+    margin-right: 50px;
+  }
+  .dimg2, .dimg4 {
+    margin-left: 460px;
+  }
+  .dtext2, .dtext4 {
+    margin-left: 50px;
+  }
+  .imgbox {
+    margin-bottom: 120px;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .imgbox {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .imgbox {
+    width: 170px;
+    height: 170px;
+  }
+}
 #team {
   width: 100%;
   background-color: #F8F9FA;
