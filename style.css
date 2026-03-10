@@ -484,9 +484,6 @@ header nav a:hover {
   }
 }
 
-#logos {
-  height: 100px;
-}
 #logos .microsoft {
   width: 180px;
   height: 60px;
@@ -505,6 +502,7 @@ header nav a:hover {
 }
 
 #contact {
+  height: 100%;
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
@@ -519,6 +517,7 @@ header nav a:hover {
   margin-bottom: 55px;
 }
 #contact .text-center h1 {
+  color: #ffffff;
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 10px;
